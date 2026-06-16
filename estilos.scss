@@ -1,0 +1,53 @@
+@use "scss/bootstrap" as * with (
+  // ── Colores del sistema: temática espacial ──
+  $primary:   #2563eb,  // azul órbita (botones, links)
+  $secondary: #64748b,  // gris azulado
+  $success:   #22c55e,  // verde vida
+  $warning:   #facc15,  // amarillo estrella
+  $danger:    #f97373,  // rojo alerta
+  $dark:      #020617,  // casi negro espacio
+  $light:     #f8fafc,
+
+  // Theme colors + color custom "pixel" (barra de stats)
+  $theme-colors: (
+    "primary":   #2563eb,
+    "secondary": #64748b,
+    "success":   #22c55e,
+    "info":      #0ea5e9,
+    "warning":   #facc15,
+    "danger":    #f97373,
+    "light":     #f8fafc,
+    "dark":      #020617,
+    "pixel":     #7c3aed,  // violeta nebulosa para bg-pixel
+  ),
+
+  // Tipografía (dejamos Inter + Plus Jakarta)
+  $font-family-sans-serif: unquote('"Inter", system-ui, sans-serif'),
+  $headings-font-family:   unquote('"Plus Jakarta Sans", "Inter", sans-serif'),
+  $headings-font-weight:   800,
+  $line-height-base:       1.7,
+
+  // Spacers extendidos
+  $spacers: (
+    0: 0, 1: .25rem, 2: .5rem,
+    3: 1rem, 4: 1.5rem, 5: 3rem,
+    6: 4rem,
+    7: 6rem,
+  ),
+
+  // Bordes y sombras más “flotantes”
+  $border-radius:    1rem,
+  $border-radius-lg: 1.5rem,
+  $box-shadow-sm:    #{0 0.25rem 0.75rem rgba(15, 23, 42, .25)},
+  $box-shadow:       #{0 1rem 2.5rem rgba(15, 23, 42, .35)},
+  $box-shadow-lg:    #{0 2rem 4rem rgba(15, 23, 42, .45)},
+);
+
+// Estilos extra de tu tema de planetas
+.hero-stars {
+  background-image: radial-gradient(circle at top, rgba(148, 163, 184, 0.4), transparent 55%);
+}
+
+.planet-card {
+  background: radial-gradient(circle at top left, rgba(94, 234, 212, 0.08), transparent 55%);
+}

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbital Studio - Estudio Planetario</title>
+
+    <!-- TUS GOOGLE FONTS: reemplaza con tu link de fonts.google.com -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS generado por Live Sass Compiler -->
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <!-- NAVBAR: bg-dark viene de $dark -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">🪐 Orbital Studio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exploración</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sistema Planetario</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary btn-sm" href="#">Agenda tu misión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO: py-7 necesita el espaciado extendido, bg-dark usa $dark -->
+    <section class="py-7 bg-dark text-white">
+      <div class="container text-center">
+        <span class="badge bg-pixel mb-4 px-3 py-2 fs-6"
+          >✦ Agencia de diseño galáctico</span
+        >
+        <h1 class="display-4 fw-bold mb-4">
+          Diseñamos la presencia<br class="d-none d-md-block" />
+          digital de tu planeta
+        </h1>
+        <p class="lead mb-5 mx-auto" style="max-width: 540px">
+          Sitios y experiencias interplanetarias que hacen despegar tu marca más
+          allá de la órbita terrestre.
+        </p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a href="#" class="btn btn-primary btn-lg px-5"
+            >Ver galaxia de proyectos</a
+          >
+          <a href="#" class="btn btn-outline-light btn-lg px-5"
+            >Habla con control de misión</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS: bg-pixel usa tu color custom del $theme-colors -->
+    <section class="py-5 bg-pixel text-white">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-6 col-md-3">
+            <div class="fw-bold fs-1">120+</div>
+            <div class="opacity-75">Sistemas solares</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="fw-bold fs-1">8</div>
+            <div class="opacity-75">Planetas visitados</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="fw-bold fs-1">98%</div>
+            <div class="opacity-75">Clientes orbitales felices</div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="fw-bold fs-1">15</div>
+            <div class="opacity-75">Galaxias mapeadas</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS/PLANETAS: shadow y border-radius vienen de tus variables -->
+    <section class="py-6 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Nuestros servicios galácticos</h2>
+          <p class="text-muted">
+            Diseñamos experiencias para todo el sistema solar
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow planet-card">
+              <div class="card-body p-4">
+                <div class="fs-1 mb-3">🪐</div>
+                <h5 class="card-title">Branding Planetario</h5>
+                <p class="card-text text-muted">
+                  Construimos identidades visuales únicas para cada mundo.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-2"
+                  >Orbitar más info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow planet-card">
+              <div class="card-body p-4">
+                <div class="fs-1 mb-3">🚀</div>
+                <h5 class="card-title">Lanzamiento Web</h5>
+                <p class="card-text text-muted">
+                  Webs rápidas listas para despegar a la velocidad de la luz.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-2"
+                  >Ver rutas</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow planet-card">
+              <div class="card-body p-4">
+                <div class="fs-1 mb-3">🌌</div>
+                <h5 class="card-title">Experiencias Inmersivas</h5>
+                <p class="card-text text-muted">
+                  Interfaces que hacen sentir a tus usuarios en otra galaxia.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-2"
+                  >Explorar nebulosas</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION NUEVA -->
+    <section class="py-6 bg-dark text-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Planetas destacados</h2>
+          <p class="text-white-50">Algunos mundos con los que ya trabajamos</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card bg-transparent border-0 text-center">
+              <div class="fs-1 mb-3">🟣</div>
+              <h5 class="text-white">Neptunia</h5>
+              <p class="text-white-50">
+                E-commerce interestelar con 3 lunas integradas.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-transparent border-0 text-center">
+              <div class="fs-1 mb-3">🔵</div>
+              <h5 class="text-white">Orbix-7</h5>
+              <p class="text-white-50">
+                Dashboard de tráfico espacial en tiempo real.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-transparent border-0 text-center">
+              <div class="fs-1 mb-3">🟢</div>
+              <h5 class="text-white">Gaia Nova</h5>
+              <p class="text-white-50">
+                Landing ecológica para colonias autosustentables.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-5 bg-dark text-white text-center">
+      <div class="container">
+        <p class="fw-bold mb-1">🪐 Orbital Studio</p>
+        <p class="text-white-50 small mb-0">
+          © 2026 — Explorando el universo digital, un pixel a la vez.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
